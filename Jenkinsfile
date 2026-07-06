@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // IMPORTANT : remplacez l'URL par celle de VOTRE depot GitHub
-                git branch: 'main', url: 'https://github.com/VOTRE-COMPTE/hello-python.git'
+                git branch: 'princip', url: 'https://github.com/fabiokrafts/hello-python.git'
             }
         }
         stage('Build') {
